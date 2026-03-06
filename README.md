@@ -17,7 +17,7 @@ This is an automated data pipeline that transforms raw SaaS subscription data in
 This tool provides a 360-degree view of **MRR**, **ARPU**, and **Churn Segmentation**, allowing SaaS leaders to prioritize retention strategies for high-risk segments.
 
 ## Technical Specifications
-- **Data Transformation:** Converting "Text-based" revenue strings into numeric formats, Null Handling (Imputation), and Duplicate Validation.
+- **Data Integrity:** Converting "Text-based" revenue strings into numeric formats, Null Handling (Imputation), and Duplicate Validation.
 - **Environment:** WSL2 (Ubuntu 22.04 LTS), Python 3.x, Virtual Environments (venv).
 - **Version Control:** Git/GitHub with `.gitignore` for data security.
 - **Containerization:** Docker (Multi-stage build ready).
