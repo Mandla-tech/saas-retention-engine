@@ -16,6 +16,13 @@ This is an automated data pipeline that transforms raw SaaS subscription data in
 ## Business Impact:
 This tool provides a 360-degree view of **MRR**, **ARPU**, and **Churn Segmentation**, allowing SaaS leaders to prioritize retention strategies for high-risk segments.
 
+## Technical Specifications
+- **Data Transformation:** Converting "Text-based" revenue strings into numeric formats, Null Handling (Imputation), and Duplicate Validation.
+- **Environment:** WSL2 (Ubuntu 22.04 LTS), Python 3.x, Virtual Environments (venv).
+- **Version Control:** Git/GitHub with `.gitignore` for data security.
+- **Containerization:** Docker (Multi-stage build ready).
+- **Performance:** Designed for O(n) linear processing.
+
 ## Data Source
 - **Dataset:** [Telco Customer Churn (IBM)](https://www.kaggle.com)
 - **Description:** This dataset contains 7,043 rows of subscription data, including demographic, account, and service information for a telecommunications company.
